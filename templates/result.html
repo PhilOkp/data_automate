@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analysis Results</title>
+     <style>
+body {background-color: sky-blue;}
+h1   {color: blue;}
+p    {color: red;}
+
+div
+{
+ text-align: center;
+ }
+ table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+th, td {
+  background-color: #96D4D4;
+}
+ </style>
+</head>
+<body>
+    <h1>Analysis Results</h1>
+    {{ result_table | safe }}
+<h1>Please check out your downloaded file for a more expansive view of your analysis</h1>
+</body>
+</html>
